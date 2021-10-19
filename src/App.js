@@ -21,9 +21,6 @@ function App() {
       setLoading(false)
       console.log(error)
     }
-
-    
-    
   }
 
   useEffect(() => {
@@ -39,7 +36,7 @@ function App() {
   }
 
   return (<main>
-    <Tours />
+    <Tours tours={tours} />
   </main>
   )
 }
